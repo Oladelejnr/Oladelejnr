@@ -59,7 +59,6 @@ body {
  }
 
  .card {
-    max-height: 1440px;
     max-width: 520px;
     padding: 30px;
     margin: auto;
