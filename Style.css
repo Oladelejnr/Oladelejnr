@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+* {
+    padding: unset;
+    margin: unset;
+    box-sizing: border-box;
+}   
+body {
+    font-family: "figtree";
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+}
+.cont {
+    width: 375px;
+    max-height: 100vh;
+    background-color: hsl(0, 0%, 7%);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 3rem auto 2rem;
+    align-content: center;
+}
+.container {
+    width: 375px;
+    max-height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    display: grid;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    margin-right: 0.7rem ;
+    border-radius: 15px;
+}
+.container img {
+    margin: auto;
+    padding-top: 0.5rem;
+    border-radius: 15px;
+    padding-bottom: 0.5rem;
+}
+.learn {
+    background-color:hsl(47, 88%, 63%) ;
+    height: 150%;
+    width: 20%;
+    border-radius: 5px;
+    margin-left: 2rem;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    
+}
+.date { 
+    margin-left: 2rem;  
+    font-size: 12px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+    color:hsl(0, 0%, 7%);
+}
+h1 {
+    font-size: 25px;
+    color: hsl(0, 0%, 7%);
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}
+.description {
+    color: hsl(0, 0%, 50%);
+    font-size: 15px;
+    font-weight: 500;
+    align-content: center;
+    justify-content:left;
+    margin-left: 2rem;
+}
+.another img {
+    float: left;
+    margin-left: 2rem;
+    margin-bottom: 0rem;
+    width: 10%;
+    margin-right: 0.5rem;
+}
+.another h2 {
+    font-size: 13px;
+    color:  hsl(0, 0%, 7%);
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
